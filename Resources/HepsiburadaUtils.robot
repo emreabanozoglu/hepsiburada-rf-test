@@ -25,7 +25,7 @@ Log in to HepsiBurada
     Take Screenshot
 
 Select a Product and Add to Cart
-    Scroll Down  0  2000
+    Scroll Down  0  2300
     sleep  3s
     HomePage.Click a Product
     ProductPage.Verify Product Page Loaded
@@ -59,12 +59,23 @@ Filter for Brand
 Filter for Price Range
     Scroll Down  0  500
     sleep  1s
-    Select Price Range
+    Write Min Price
+    Write Max Price
+    Click Price Filter Button
     Verfiy Price Range
     Take Screenshot
 
 Filter for Color
     Scroll Down  0  700
+    sleep  1s
     Select a color
     Verify Price Range
+    Take Screenshot
+
+Select a Product and go Product Page
+    Click First Listed Product
+    Verify Product Page Loaded
+    Click Comments
+    Click "Bu yorumu faydalı buluyor musunuz? - Evet" Button
+    sleep  1s
     Take Screenshot

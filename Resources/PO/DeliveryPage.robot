@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${DEVAMET_BUTTON} =  xpath=//button[@class='btn btn-primary full']
+${DEVAMET_BUTTON} =  xpath=//span[contains(text(),'Devam Et')]
 
 
 *** Keywords ***

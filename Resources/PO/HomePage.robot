@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${PRODUCT_CART} =  xpath=//*[@id="trendingProducts-0"]/div[1]/div/a/div/h3/div/p
+${PRODUCT_CART} =  xpath=(//div[@class='hbPriceContent'])[1]
 ${SEARCHBOX} =  id=productSearch
 
 *** Keywords ***

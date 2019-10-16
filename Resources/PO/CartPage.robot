@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${ALISVERISITAMAMLA_BUTTON} =  xpath=/html/body/div[1]/div[2]/div/div[1]/aside/section/div/div[1]/div[2]/button/span
+${ALISVERISITAMAMLA_BUTTON} =  xpath=//span[contains(text(),'Alışverişi Tamamla')]
 
 *** Keywords ***
 

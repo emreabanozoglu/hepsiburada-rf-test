@@ -3,7 +3,7 @@ Documentation  Hepsiburada Robot Framework
 Resource  ../Resources/Common.robot
 Resource  ../Resources/HepsiburadaUtils.robot
 Suite Setup  Common.Begin Web Test
-#Suite Teardown  Common.End Web Test
+Suite Teardown  Common.End Web Test
 
 *** Variables ***
 ${BROWSER} =  chrome
@@ -30,6 +30,7 @@ Search Result Page Control
     Filter for Brand
     Filter for Price Range
     Filter for Color
+    Select a Product and go Product Page
 
 
 
