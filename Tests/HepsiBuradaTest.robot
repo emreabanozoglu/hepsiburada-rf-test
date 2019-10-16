@@ -14,18 +14,18 @@ ${USER_PASSWORD} =  1qa2ws3ed4rf
 ${SEARCH_ITEM} =  bluetooth kulaklık
 ${BRAND_FILTER} =  JBL
 
-#robot -d results -i smoke tests
+#robot -d results -i tests
 *** Test Cases ***
 Buy a product
     [Documentation]  User, login to Hepsiburada with User Name and Password.
-    [Tags]  smoke
+    [Tags]  case1
     Log in to HepsiBurada
     Select a Product and Add to Cart
     Complete Shopping Until Payment
 
 Search Result Page Control
     [Documentation]  User, goes to seach page, filtering items.
-    [Tags]  smoke1
+    [Tags]  case2
     Search a item
     Filter for Brand
     Filter for Price Range
