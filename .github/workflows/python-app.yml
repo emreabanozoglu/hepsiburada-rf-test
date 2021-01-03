@@ -25,7 +25,7 @@
 #          ROBOT_REPORTS_DIR: ${{ github.workspace }}/results
 
 
-name: Run Robot Framework Tests
+name: Python application
 on:
   pull_request:
     branches: [master]
