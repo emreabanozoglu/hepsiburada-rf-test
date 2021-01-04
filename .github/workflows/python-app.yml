@@ -50,11 +50,7 @@ jobs:
 # place tests in folder tests or change docker run command accordingly
 # configure -e ROBOT_OPTIONS according to yout tests, or remove it if no special configuration is needed
         run: |
-          docker run
-            -v ${PWD}/reports:/opt/robotframework/reports:Z
-            -v ${{ github.workspace }}/:/opt/hepsiburada-rf-test/Tests:Z
-            --user $(id -u):$(id -g)
-            ppodgorsek/robot-framework:latest
+          docker run -v ${PWD}/reports:/opt/robotframework/reports:Z -v ${{ github.workspace }}/:/opt/hepsiburada-rf-test/Tests:Z --user $(id -u):$(id -g) ppodgorsek/robot-framework:latest
 # upload test reports as a zip file
       - name: Upload reports
         uses: actions/upload-artifact@v1
