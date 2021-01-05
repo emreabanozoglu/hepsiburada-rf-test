@@ -22,7 +22,7 @@ jobs:
         env:
           BROWSER: chrome
           ROBOT_TESTS_DIR: ${{ github.workspace }}/Tests/HepsiBuradaTest.robot
-          ROBOT_REPORTS_DIR: ${{ github.workspace }}/reports
+          #ROBOT_REPORTS_DIR: ${{ github.workspace }}/reports
 
 
 #name: Python application
