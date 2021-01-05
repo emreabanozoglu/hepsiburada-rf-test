@@ -30,6 +30,8 @@ Select a Product and Add to Cart
     HomePage.Click a Product
     ProductPage.Verify Product Page Loaded
     ProductPage.Click AddToCart
+    sleep    3s
+    Click "Sepetim" Button
     CartPage.Verify Cart Page Loaded
     Take Screenshot
 

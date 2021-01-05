@@ -5,6 +5,7 @@ Library  SeleniumLibrary
 ${SEPETEEKLE_BUTTON} =  id=addToCart
 ${COMMENTS} =  id=productReviewsTab
 ${COMMENT_YES_BUTTON} =  (//a[@data-agreed='true'])[1]
+${SEPETIM_BUTTON} =    id=CartButton
 
 *** Keywords ***
 Click AddToCart
@@ -15,3 +16,5 @@ Click Comments
     click element  ${COMMENTS}
 Click "Bu yorumu faydalı buluyor musunuz? - Evet" Button
     click element  ${COMMENT_YES_BUTTON}
+Click "Sepetim" Button
+    click element    ${SEPETIM_BUTTON}
