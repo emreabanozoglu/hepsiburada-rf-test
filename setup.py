@@ -151,7 +151,7 @@ setup(
         'soupsieve==2.1;python_version>="3.6"',
         'beautifulsoup4==4.9.3',
         'cryptography==3.0;python_version<"3.6"',
-        'cryptography==3.3.1;python_version>="3.6"',
+        'cryptography==3.3.2;python_version>="3.6"',
         'pyopenssl==19.1.0;python_version<"3.6"',
         'pyopenssl==20.0.1;python_version>="3.6"',
         'pygments==2.5.2;python_version<"3.5"',
