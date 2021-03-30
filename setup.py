@@ -155,7 +155,7 @@ setup(
         'pyopenssl==19.1.0;python_version<"3.6"',
         'pyopenssl==20.0.1;python_version>="3.6"',
         'pygments==2.5.2;python_version<"3.5"',
-        'pygments==2.7.3;python_version>="3.5"',
+        'pygments==2.7.4;python_version>="3.5"',
         'traitlets==4.3.3;python_version<"3.7"',
         'traitlets==5.0.5;python_version>="3.7"',
         'ipython==5.10.0;python_version<"3.5"',
