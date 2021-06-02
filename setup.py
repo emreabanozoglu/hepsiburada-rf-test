@@ -121,7 +121,7 @@ setup(
         'idna==2.10',  # Must stay in sync with "requests"
         'chardet==3.0.4;python_version<"3.6"',  # Stay in sync with "requests"
         'chardet==4.0.0;python_version>="3.6"',  # Stay in sync with "requests"
-        'urllib3==1.26.2',  # Must stay in sync with "requests"
+        'urllib3==1.26.5',  # Must stay in sync with "requests"
         'requests==2.25.1',
         'selenium==3.141.0',
         'msedge-selenium-tools==3.141.3',
